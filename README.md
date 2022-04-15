@@ -10,3 +10,11 @@
 （参考：https://kscscr.com/archives/jspsych-qualtrics-r.html#:~:text=%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9/%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E5%90%8D/%22%22%3B-,var%20requiredResources%20%3D%20%5B,%C2%A0%C2%A0%C2%A0%C2%A0%7D,-if%20）。
 
 ・ただgithubのjsファイルは直接実行できないので「jsdeliver」というものでurlを変換しています（参考：https://rs-techdev.com/archives/4318）
+
+# 展開したプロジェクトの実行方法
+1.node環境を作る
+2.プロジェクトのルートフォルダー（package.jsonがあるフォルダ階層）にcmd等で移動する。
+3.「npm install」とcmdで入力(npmパッケージインストール)
+4.「npm run make」(foodNames.json生成)
+5.「npm run build-dev」(ビルドしてdistフォルダ生成)
+6.「npm run start-dev」(ブラウザで実行)
