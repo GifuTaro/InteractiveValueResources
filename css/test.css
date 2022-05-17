@@ -1,0 +1,9 @@
+.wrap {
+    display: flex;
+}
+body {
+    /* 背景色指定 */
+    background-color: #10100e;
+    color: #cccccc;
+}
+

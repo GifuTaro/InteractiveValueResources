@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Appマウント"),console.log(JSON.parse(localStorage.getItem("results")))})();
